@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="2dp"
+    android:id="@+id/article_list_item_more_expand_layout"
+
+    >
+
+    <ImageButton
+        android:id="@+id/ib_lessbutton"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/app_white"
+
+
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_expand_less_black" />
+
+    <TextView
+        android:id="@+id/tv_expandtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:clickable="true"
+        android:text="@string/more_detail"
+        app:layout_constraintBottom_toBottomOf="@+id/ib_lessbutton"
+        app:layout_constraintRight_toLeftOf="@+id/ib_lessbutton"
+        app:layout_constraintTop_toTopOf="@+id/ib_lessbutton" />
+
+    <View
+        android:id="@+id/dividerview3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:background="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_lessbutton"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>

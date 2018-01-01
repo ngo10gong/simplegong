@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:importantForAccessibility="no"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:id="@+id/listItemRowLayout"
+    >
+
+    <ImageView
+        android:id="@+id/iv_sourceiconfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_small"
+        android:layout_marginStart="@dimen/padding_normal"
+
+        android:minHeight="@dimen/settings_content_padding"
+        android:minWidth="@dimen/settings_content_padding"
+
+        app:srcCompat="@drawable/ic_tmp_icon"
+        />
+
+    <TextView
+        android:id="@+id/tv_domainsourcefilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_normal"
+        android:importantForAccessibility="no"
+        android:labelFor="@+id/filter_checkbox"
+        tools:backgroundTint="@color/sunflower_yellow"
+        tools:text="Android" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <CheckBox
+        android:id="@+id/filter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/a11y_min_touch_target_dimen"
+        android:minWidth="@dimen/a11y_min_touch_target_dimen"
+        />
+
+</LinearLayout>
+

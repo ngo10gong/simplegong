@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llistitem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/article_list_item_primary" />
+
+    <LinearLayout
+        android:id="@+id/expandlistitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/article_list_item_expand_one" />
+
+        <include layout="@layout/article_list_item_expand_one_sb" />
+
+        <include layout="@layout/article_list_item_expand_two" />
+
+        <include layout="@layout/article_list_item_expand_two_sb" />
+
+        <include layout="@layout/article_list_item_expand_more" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/article_list_item_two_sb_expand_layout"
+
+    android:padding="5dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/ib_share2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            android:background="@color/app_white"
+            android:gravity="right|end"
+            app:srcCompat="@drawable/ic_share_black" />
+
+        <ImageButton
+            android:id="@+id/ib_bookmark2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            android:background="@color/app_white"
+            app:srcCompat="@drawable/ic_bookmark_selector" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dividerview2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

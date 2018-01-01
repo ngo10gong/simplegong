@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bookmark_news_linearlayout"
+    android:fitsSystemWindows="true"
+    >
+
+    <com.hk.simplenewsgong.simplegong.SlowdownRecyclerView
+        android:id="@+id/recyclerview_slowdown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingBottom="56dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottom_mainnews_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        app:itemBackground="@color/test_color"
+        app:itemIconTint="@drawable/navigation_item_color"
+        app:itemTextColor="@drawable/navigation_item_color"
+        app:menu="@menu/navigation_items" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/choice_value_lang_eng"
+        android:entries="@array/pref_language_options"
+        android:entryValues="@array/pref_language_values"
+        android:key="@string/gong_lang_pref"
+        android:title="@string/choice_lang" />
+
+</PreferenceScreen>

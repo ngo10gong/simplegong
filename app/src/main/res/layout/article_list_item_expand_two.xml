@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:id="@+id/article_list_item_two_expand_layout"
+
+    >
+
+
+    <TextView
+        android:id="@+id/tv_titleexpandtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/please_wait"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_sourceiconexpandtwo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_titleexpandtwo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titleexpandtwo"
+        app:srcCompat="@drawable/ic_tmp_icon" />
+
+    <TextView
+        android:id="@+id/tv_domainsourceexpandtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:text="@string/please_wait"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_sourceiconexpandtwo"
+        app:layout_constraintLeft_toRightOf="@+id/iv_sourceiconexpandtwo"
+        app:layout_constraintTop_toTopOf="@+id/iv_sourceiconexpandtwo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/tv_dateexpandtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/please_wait"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_domainsourceexpandtwo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/tv_domainsourceexpandtwo"
+        app:layout_constraintRight_toRightOf="@+id/tv_titleexpandtwo"
+        app:layout_constraintTop_toTopOf="@+id/tv_domainsourceexpandtwo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SimpleGong</string>
+    <string name="content_authority">com.hk.simplenewsgong.simplegong</string>
+    <string name="VIEWTAG_ARTICLEID">VIEWTAG_ARTICLEID</string>
+    <string name="VIEWTAG_FINALURL">VIEWTAG_FINALURL</string>
+    <string name="VIEWTAG_TITLE">VIEWTAG_TITLE</string>
+    <string name="VIEWTAG_TITLE_ID">VIEWTAG_TITLE_ID</string>
+    <string name="VIEWTAG_BACKGROUND_LAYOUT_ID">VIEWTAG_BACKGROUND_LAYOUT_ID</string>
+    <string name="VIEWTAG_BACKGROUND_BOOKMARK_ID">VIEWTAG_BACKGROUND_BOOKMARK_ID</string>
+    <string name="VIEWTAG_BACKGROUND_SHARE_ID">VIEWTAG_BACKGROUND_SHARE_ID</string>
+    <string name="VIEWTAG_BACKGROUND_EXPANDLESS_ID">VIEWTAG_BACKGROUND_EXPANDLESS_ID</string>
+    <string name="VIEWTAG_BACKGROUND_EXPAND_XXX_SB_ID">VIEWTAG_BACKGROUND_EXPAND_XXX_SB_ID</string>
+    <string name="VIEWTAG_MOREDETAILARTICLELIST">VIEWTAG_MOREDETAILARTICLELIST</string>
+    <string name="VIEWTAG_EXPANDTEXT_JSON_STRING">VIEWTAG_EXPANDTEXT_JSON_STRING</string>
+    <string name="VIEWTAG_EXPANDTEXT_JSON_BOOKMARK_STRING">VIEWTAG_EXPANDTEXT_JSON_BOOKMARK_STRING</string>
+    <string name="VIEWTAG_FIRSTSUBDOMAIN_NUM">VIEWTAG_FIRSTSUBDOMAIN_NUM</string>
+
+    <string name="gong_lang_pref">gong_lang_pref</string>
+
+    <string name="ninenine">9999</string>
+    <string name="simple_display">\u2003\u2003\u2003\u2003\u2003\Simple Display\u2002\u2b07</string>
+    <string name="simple_display_backup">Simple Display\u2003\u25bc</string>
+    <string name="more_detail">More News</string>
+    <string name="more_news_on_remote">Newly added\u2003</string>
+    <string name="number_of_news">\u2003picese of new News</string>
+    <string name="first_pagination_range">1to20</string>
+    <string name="check_network_setting">please check network setting</string>
+    <string name="please_wait">Please Wait\u2003\uff0e\uff0e\uff0e</string>
+    <string name="feedback">Feedback</string>
+    <string name="preferred_list">Preferred Sources</string>
+    <string name="clear_all">Clear All</string>
+    <string name="nav_item_news_name">News</string>
+    <string name="nav_item_simple_gong_name">Simple\u2003Gong</string>
+    <string name="nav_item_bookmark_name">Bookmark</string>
+    <string name="my_bookmarked">My Bookmark</string>
+    <string name="please_use_simple_display">Please check network Setting\nand use "Simple Display"</string>
+    <string name="simple_gong_name">\u201cSimple\u201d\u2003Gong</string>
+    <string name="updating_news">Updating News\u2003\uff0e\uff0e\uff0e</string>
+    <string name="more_news">More News</string>
+    <string name="update_now">Updating...</string>
+    <string name="no_news_for_him_her">There are no news about him\u2215her</string>
+    <string name="choice_lang">Language choice</string>
+    <string name="settings">Settings</string>
+    <string name="choice_lang_eng">English</string>
+    <string name="choice_lang_zh_rhk">Chinese(Hong Kong)</string>
+    <string name="choice_value_lang_eng">english</string>
+    <string name="choice_value_lang_zh_rhk">chinese_hong_kong</string>
+    <string name="update_action">Update</string>
+
+    <string name="fraginfo_hklatestnews">HK Latest</string>
+    <string name="fraginfo_hknews">Top Local</string>
+    <string name="fraginfo_finlatestnews">Finance Latest</string>
+    <string name="fraginfo_finnews">Top Finance</string>
+    <string name="fraginfo_entnews">Entertainment</string>
+    <string name="fraginfo_sportsnews">Sports</string>
+    <string name="fraginfo_sportsnewsarchive">sportsnewsarchive</string>
+    <string name="fraginfo_entnewsarchive">entnewsarchive</string>
+    <string name="fraginfo_hknewsarchive">hknewsarchive</string>
+    <string name="fraginfo_finnewsarchive">finnewsarchive</string>
+    <string name="fraginfo_finlatestnewsarchive">finlatestnewsarchive</string>
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, quis dignissim libero aliquam id. Donec sollicitudin ultrices ante, a semper erat tristique in. Vivamus sodales in ligula at sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla tempus bibendum nibh, ac tincidunt quam convallis non. Proin dolor nunc, egestas et tortor consequat, dignissim lacinia odio. Ut ut aliquet erat.  Ut non scelerisque elit. Morbi dolor neque, iaculis eu justo rutrum, aliquet dictum mauris. Phasellus quis massa ut ligula feugiat congue a et dolor. Etiam a dui a sapien ornare accumsan ac ut lorem. Suspendisse vehicula lorem dapibus nibh rhoncus ultricies. Proin sem nulla, elementum quis pharetra quis, commodo vitae nisi. Donec urna orci, posuere et iaculis sit amet, fringilla quis sapien. Pellentesque nec posuere felis. Praesent malesuada tellus nisi, non dictum justo interdum eget. Quisque mollis euismod libero, non aliquam lorem interdum vitae. Aliquam vehicula efficitur purus eget rutrum. Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa.</string>
+
+</resources>

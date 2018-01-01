@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing_large"
+    android:layout_marginRight="@dimen/spacing_large"
+
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:id="@+id/article_list_item_one_expand_layout"
+
+    >
+
+    <ImageView
+        android:id="@+id/iv_sourceiconexpandone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_tmp_icon" />
+
+    <TextView
+        android:id="@+id/tv_domainsourceexpandone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:text="@string/please_wait"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_sourceiconexpandone"
+        app:layout_constraintLeft_toRightOf="@+id/iv_sourceiconexpandone"
+        app:layout_constraintTop_toTopOf="@+id/iv_sourceiconexpandone"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_dateexpandone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/please_wait"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_domainsourceexpandone"
+        app:layout_constraintLeft_toRightOf="@+id/tv_domainsourceexpandone"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_domainsourceexpandone"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_mainnews"
+        icon="@drawable/ic_logo_bw_news"
+        title="MainNews" />
+    <tab
+        id="@+id/tab_simplegong"
+        icon="@drawable/ic_logo_bw"
+        title="SimpleGong" />
+    <tab
+        id="@+id/tab_bookmark"
+        icon="@drawable/ic_bookmark_border_black"
+        title="Friends" />
+</tabs>

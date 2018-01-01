@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_language_options">
+        <item>@string/choice_lang_eng</item>
+        <item>@string/choice_lang_zh_rhk</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>@string/choice_value_lang_eng</item>
+        <item>@string/choice_value_lang_zh_rhk</item>
+    </string-array>
+
+</resources>

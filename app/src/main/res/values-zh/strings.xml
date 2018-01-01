@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="simple_display">\u2003\u2003\u2003\u2003\u2003\簡單顯示\u2002\u2b07\u02c5\u2193\u21e9\u22c1</string>
+    <string name="simple_display_backup">簡單顯示\u2003\u25bc</string>
+    <string name="more_detail">更多報導</string>
+    <string name="more_news_on_remote">新增加\u2003</string>
+    <string name="number_of_news">\u2003則新聞</string>
+    <string name="first_pagination_range">1to20</string>
+    <string name="check_network_setting">請檢查網絡設置</string>
+    <string name="please_wait">請稍候\u2003\uff0e\uff0e\uff0e</string>
+    <string name="feedback">給予意見</string>
+    <string name="preferred_list">媒體選擇</string>
+    <string name="clear_all">清除所有</string>
+    <string name="nav_item_news_name">新聞</string>
+    <string name="nav_item_simple_gong_name">簡單\u2003新聞</string>
+    <string name="nav_item_bookmark_name">收藏</string>
+    <string name="my_bookmarked">我的收藏</string>
+    <string name="please_use_simple_display">請檢查網絡設置\n和請使用簡單顯示</string>
+    <string name="simple_gong_name">\u201c簡單\u201d\u2003新聞</string>
+    <string name="updating_news">現正更新新聞\u2003\uff0e\uff0e\uff0e</string>
+    <string name="more_news">更多新聞</string>
+    <string name="update_now">現正更新</string>
+    <string name="no_news_for_him_her">沒有他\u2215她的新聞</string>
+    <string name="choice_lang">選擇語言</string>
+    <string name="settings">設置</string>
+    <string name="choice_lang_eng">英文</string>
+    <string name="choice_lang_zh_rhk">中文 (香港)</string>
+    <string name="choice_value_lang_eng">english</string>
+    <string name="choice_value_lang_zh_rhk">chinese_hong_kong</string>
+    <string name="update_action">更新</string>
+
+
+    <string name="fraginfo_hklatestnews">即時港聞</string>
+    <string name="fraginfo_hknews">港聞</string>
+    <string name="fraginfo_finlatestnews">即時財經</string>
+    <string name="fraginfo_finnews">財經</string>
+    <string name="fraginfo_entnews">娛樂</string>
+    <string name="fraginfo_sportsnews">體育</string>
+    <string name="fraginfo_sportsnewsarchive">體育檔案</string>
+    <string name="fraginfo_entnewsarchive">娛樂檔案</string>
+    <string name="fraginfo_hknewsarchive">港聞檔案</string>
+    <string name="fraginfo_finnewsarchive">財經檔案</string>
+    <string name="fraginfo_finlatestnewsarchive">即時財經檔案</string>
+
+</resources>
