@@ -20,7 +20,7 @@ import com.hk.simplenewsgong.simplegong.data.GongPreference;
  */
 public class GongTimeUtil {
     public static final long HOUR_IN_MILLIS = TimeUnit.HOURS.toMillis(1);
-    public static TimeZone hkTimeZone16 = TimeZone.getTimeZone("GMT+16");
+    private static TimeZone hkTimeZone16 = TimeZone.getTimeZone("GMT+16");
 
 
     /**
@@ -35,9 +35,8 @@ public class GongTimeUtil {
         long hktimeSinceEpochLocalTimeMillis16 = (timedata * 1000) + hkgmtOffsetMillis16;
 
         SimpleDateFormat hkdateformat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm 香港 ");
-        String result = hkdateformat.format(Long.valueOf(hktimeSinceEpochLocalTimeMillis16));
+        return  hkdateformat.format(Long.valueOf(hktimeSinceEpochLocalTimeMillis16));
 
-        return result;
     }
 
 
