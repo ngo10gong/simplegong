@@ -1,4 +1,4 @@
-# simplegong
+
 SimpleGong
 ==========
 
